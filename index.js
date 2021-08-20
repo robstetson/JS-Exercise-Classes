@@ -74,13 +74,14 @@ const newObj = new Person('Mary', 50);
     - A car which runs out of `fuel` while driving can't drive any more distance:
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
 */
+// TEST
 
 class Car {
   constructor (model, milesPerGallon, tank, odometer){
     this.model = model;
     this.milesPerGallon = milesPerGallon;
     this.tank = 0;
-    this.odometer = 0;
+    // this.odometer = 0;
 }
 fill(){
 
